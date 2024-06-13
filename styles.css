@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    padding: 20%;
+    border: 1px solid black;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color: lightblue;
+}
+
+header{
+    font-size: 50px;
+    color: grey;
+    text-align: center; 
+    position: static;
+}
+
+p{
+    font-size: 20px;
+    color: gray;
+    margin: 20px;
+    margin-left: 0%;
+    position: static;
+}
+
+button{
+    display: flex;
+    padding: 30px;
+    font-size: large;
+    color: gold;
+    background-color: green;
+    border: double;
+    cursor: pointer;
+    position: relative;
+}
+
+header::before,
+header::after{
+    content: "⭐";
+}
+
+p::before{
+    content: '“';
+}
+
+p::after{
+    content: '”';
+}
+
+button::before{
+    content: '👉';
+}
+
+button::after{
+    content: '👈';
+}
